@@ -56,7 +56,7 @@ To develop a **binary classification model** that predicts whether a loan will d
 |--------------------|-----------|----------|--------|
 | LogisticRegression | 0.71      | 0.70     | 0.38   |
 | RandomForest       | 0.72      | 0.72     | 0.39   |
-| XGBoost            | 0.74      | 0.70     | 0.40   |
+| XGBoost            | 0.74      | 0.70     | 0.41   |
 
 *(Results will vary depending on hyperparameters and train/test split)*
 
