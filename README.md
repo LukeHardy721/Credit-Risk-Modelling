@@ -43,10 +43,11 @@ To develop a **binary classification model** that predicts whether a loan will d
    - PCA
    - SMOTE
    - Stochastic Gradient Descent
-   - Evaluate with AUC, precision, recall, F1
-4. **Modelling - Random Forest**
-   - To do
-
+   - Evaluate with AUC, F1 score, precision, recall
+4. **Modelling - Random Forest & XGBoost**
+   - Random Forest
+   - XGBoost
+   - Evaluate with AUC, F1 score, precision, recall
 ---
 
 ## 📈 Results
@@ -54,8 +55,8 @@ To develop a **binary classification model** that predicts whether a loan will d
 | Model              | AUC Score | F1 Score | Precision | Recall |
 |--------------------|-----------|----------|-----------|--------|
 | LogisticRegression | 0.71      | 0.70     | 0.77      | 0.66   |
-| RandomForest       |           |          |           |        |
-| XGBoost            |           |          |           |        |
+| RandomForest       | 0.72      | 0.72     | 0.77      | 0.69   |
+| XGBoost            | 0.74      | 0.70     | 0.78      | 0.66   |
 
 *(Results will vary depending on hyperparameters and train/test split)*
 
