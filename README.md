@@ -52,11 +52,11 @@ To develop a **binary classification model** that predicts whether a loan will d
 
 ## 📈 Results
 
-| Model              | AUC Score | F1 Score | Precision | Recall |
-|--------------------|-----------|----------|-----------|--------|
-| LogisticRegression | 0.71      | 0.70     | 0.77      | 0.66   |
-| RandomForest       | 0.72      | 0.72     | 0.77      | 0.69   |
-| XGBoost            | 0.74      | 0.70     | 0.78      | 0.66   |
+| Model              | AUC Score | F1 Score | PR AUC |
+|--------------------|-----------|----------|--------|
+| LogisticRegression | 0.71      | 0.70     | 0.38   |
+| RandomForest       | 0.72      | 0.72     | 0.39   |
+| XGBoost            | 0.74      | 0.70     | 0.40   |
 
 *(Results will vary depending on hyperparameters and train/test split)*
 
