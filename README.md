@@ -38,25 +38,24 @@ To develop a **binary classification model** that predicts whether a loan will d
    - Create new features (e.g., `debt_to_income`)
    - Impute missing values
    - Encode categorical variables
-3. **Modelling - Logistic Regression**
-   - Analyse collinearity
-   - PCA
-   - SMOTE
-   - Stochastic Gradient Descent
-   - Evaluate with AUC, F1 score, precision, recall
-4. **Modelling - Random Forest & XGBoost**
+3. **Modelling**
+   - Linear Regression
+      - Analyse collinearity
+      - PCA
+      - SMOTE
+      - Stochastic Gradient Descent
    - Random Forest
    - XGBoost
-   - Evaluate with AUC, F1 score, precision, recall
+   - Evaluate with ROC AUC, F1 score and PR AUC
 ---
 
 ## 📈 Results
 
-| Model              | AUC Score | F1 Score | PR AUC |
-|--------------------|-----------|----------|--------|
-| LogisticRegression | 0.71      | 0.70     | 0.38   |
-| RandomForest       | 0.72      | 0.72     | 0.39   |
-| XGBoost            | 0.74      | 0.70     | 0.42   |
+| Model              | ROC AUC Score | F1 Score | PR AUC |
+|--------------------|---------------|----------|--------|
+| LogisticRegression | 0.71          | 0.70     | 0.38   |
+| RandomForest       | 0.72          | 0.72     | 0.39   |
+| XGBoost            | 0.74          | 0.70     | 0.42   |
 
 *(Results will vary depending on hyperparameters and train/test split)*
 
