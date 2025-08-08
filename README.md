@@ -59,6 +59,8 @@ To develop a **binary classification model** that predicts whether a loan will d
 
 *(Results will vary depending on hyperparameters and train/test split)*
 
+Our model shows that, given an assumption of a 10% recovery rate for defaulted loans, we could cut ~22% of the riskiest loans and that would result in an optimal net gain of $557m. This does not account for more complex assumptions such as the time value of money, the opportunity cost of approving a loan, etc.
+
 ---
 
 ## 📂 Project Structure
